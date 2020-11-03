@@ -1,0 +1,16 @@
+
+
+div.notification:hover {
+  background-color:red;
+}
+
+@font-face {
+  font-family: 'Hackman';
+  src: url('/Hackman.3da47da3.ttf'); /* IE9 Compat Modes */
+  src: url('/Hackman.3da47da3.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Hackman-Bold';
+  src: url('/Hackman Bold.412ba115.ttf'); /* IE9 Compat Modes */
+  src: url('/Hackman Bold.412ba115.ttf')  format('truetype'), /* Safari, Android, iOS */
+}

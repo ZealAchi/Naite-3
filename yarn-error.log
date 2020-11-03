@@ -1,0 +1,41 @@
+Arguments: 
+  C:\laragon\bin\nodejs\node-v12\node.exe C:\laragon\bin\nodejs\node-v12\node_modules\yarn\bin\yarn.js add apollo-server-express bcryptjs body-parser cors dataloader dotenv express graphql-iso-data graphql-resolvers jsonwebtoken mongoose uuid
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Alexandra Naite\AppData\Local\Android\Sdk\platform-tools;C:\Go\bin;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\watchman-v2020.07.20.00-windows\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\code;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\go\go1.12\bin;C:\laragon\bin\java\jdk-8u131\\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v12;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-7.2.19-Win32-VC15-x64;C:\laragon\bin\putty;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\Alexandra Naite\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Alexandra Naite\AppData\Roaming\Composer\vendor\bin;C:\Users\Alexandra Naite\AppData\Roaming\npm;C:\Users\Alexandra Naite\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\Alexandra Naite\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alexandra Naite\go\bin;C:\Program Files\Java\jdk-12.0.1\bin;C:\Users\Alexandra Naite\AppData\Local\Android\Sdk\platform-tools;C:\Users\Alexandra Naite\go\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.5\sbin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/graphql-iso-data: Not found
+      at Request.params.callback [as _callback] (C:\laragon\bin\nodejs\node-v12\node_modules\yarn\lib\cli.js:66091:18)
+      at Request.self.callback (C:\laragon\bin\nodejs\node-v12\node_modules\yarn\lib\cli.js:129590:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (C:\laragon\bin\nodejs\node-v12\node_modules\yarn\lib\cli.js:130562:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (C:\laragon\bin\nodejs\node-v12\node_modules\yarn\lib\cli.js:130484:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1154:12)
+      at processTicksAndRejections (internal/process/task_queues.js:74:11)
+
+npm manifest: 
+  {
+    "name": "node_client",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
